@@ -28,6 +28,7 @@ body {
   position: relative;
   right: 770px;
   top: -435px;
+  cursor: pointer;
 }
 
 .LogoLeft {
@@ -38,4 +39,5 @@ body {
   position: relative;
   scale: 0.3;
   top: -1130px;
+  cursor: pointer;
 }/*# sourceMappingURL=page.css.map */

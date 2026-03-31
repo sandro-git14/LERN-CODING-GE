@@ -6,11 +6,11 @@ export default function Home({
 }) {
   return (
     <>
-<div>
+<div className='Items'>
     <br /><br />
     <center>
     <div className="HelloPanel">
-      <h1 className='WebHello'>მოგესალმებით</h1>
+      <h1 className='WebHello'>მოგესალმებით მთავარ გვერდზე</h1>
     </div>
 
 
@@ -27,6 +27,10 @@ export default function Home({
       alt="Logo In Center Right" 
       className='LogoLeft'
       />
+    </div>
+
+    <div>
+      <img src='public/Pipe1' alt="" />
     </div>
 
     </center>
