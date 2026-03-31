@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import '../app/styles/page.css'
 
 export default function Home({
@@ -37,15 +38,14 @@ export default function Home({
         </div>
 
         <div className='LoginButton_Items'>
-        <button className="pushable">
+        <button className="pushable" >
+        <Link href="/Login">
           <span className="front">
             დარეგისტრირდი
           </span>
+        </Link>
         </button>
         </div>
-
-
-
 
         <div>
           <img 
