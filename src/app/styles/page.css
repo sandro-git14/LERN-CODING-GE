@@ -47,9 +47,9 @@ body {
 }
 
 .PipeLeft {
-  width: 300px;
+  width: 350px;
   position: relative;
-  top: -1280px;
+  top: -1195px;
   left: -800px;
 }
 
@@ -59,7 +59,41 @@ body {
   top: -1950px;
 }/*# sourceMappingURL=page.css.map */
 
-.LoginBtn {
+
+
+.LoginButton_Items {
   position: relative;
-  top: -1500px;
+  top: -1950px;
+  scale: 2.5;
+  position: relative;
+} 
+
+.pushable {
+  background: #ae3b18; /* A darker color for the 3D base */
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #FF5722; /* The main button color */
+  color: white;
+  transform: translateY(-6px); /* Lifts the front part initially */
+  transition: transform 0.1s ease; /* Smooth transition for the press effect */
+}
+
+/* When the button is clicked, move the front part down to simulate a press */
+.pushable:active .front {
+  transform: translateY(-2px); /* Moves down by 4px from the original -6px position */
+}
+
+/* Optional: Add hover effect for better user experience */
+.pushable:hover .front {
+  transform: translateY(-8px); /* Lifts slightly on hover */
 }

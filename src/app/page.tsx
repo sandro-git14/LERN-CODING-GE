@@ -36,7 +36,16 @@ export default function Home({
           />
         </div>
 
-        <button className='LoginBtn'>asdasdasd</button>
+        <div className='LoginButton_Items'>
+        <button className="pushable">
+          <span className="front">
+            დარეგისტრირდი
+          </span>
+        </button>
+        </div>
+
+
+
 
         <div>
           <img 
@@ -46,6 +55,8 @@ export default function Home({
           id='PipeRight'
           />
         </div>
+
+        <h1>asdasdasdasdasdasdasd</h1>
 
       </center>
     </>
