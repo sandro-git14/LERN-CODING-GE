@@ -1,9 +1,12 @@
 body {
   background-color: #343434;
+  height: 0px;
+  margin: 0;
+  overflow: hidden; // ← this disables scrolling
 }
 
 .WebHello {
-    position: relative;
+  position: relative;
   font-size: 70px;
   background-color: #121212;
   width: 70%;
@@ -20,25 +23,39 @@ body {
 
 * {
   font-family: 'geo';
+  -webkit-text-stroke-color: #FF5722;
+  -webkit-text-stroke-width: 1px;
 }
 
 .LogoRight {
-    border: 10px solid black;
-    scale: 0.3;
-    border-radius: 80px;
-    position: relative;
-    right: 770px;
-    top: -435px;
-    cursor: pointer;
+  border: 10px solid black;
+  border-radius: 80px;
+  position: relative;
+  transform: scale(0.3);
+  right: -820px;
+  top: -435px;
+  cursor: pointer;
 }
 
 .LogoLeft {
-    right: -820px;
-    border: 10px solid black;
-    scale: 0.6;
-    border-radius: 80px;
-    position: relative;
-    scale: 0.3;
-    top: -1130px;
-    cursor: pointer;
+  border: 10px solid black;
+  border-radius: 80px;
+  position: relative;
+  transform: scale(0.3);
+  right: 780px;
+  top: -1130px;
+  cursor: pointer;
+}
+
+.PipeLeft {
+  width: 300px;
+  position: relative;
+  top: -1280px;
+  left: -800px;
+}
+
+#PipeRight {
+  position: relative;
+  left: 700px;
+  top: -1950px;
 }
