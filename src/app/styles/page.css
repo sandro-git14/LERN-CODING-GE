@@ -1,0 +1,41 @@
+body {
+  background-color: #343434;
+}
+
+.WebHello {
+  position: relative;
+  font-size: 70px;
+  background-color: #121212;
+  width: 70%;
+  padding: 50px;
+  border-radius: 50px;
+  border: 2px solid white;
+  right: -23px;
+}
+
+@font-face {
+  font-family: "geo";
+  src: url("/fonts/bpg_extrasquare_mtavruli_2009.ttf") format("truetype");
+}
+* {
+  font-family: "geo";
+}
+
+.LogoRight {
+  border: 10px solid black;
+  scale: 0.3;
+  border-radius: 80px;
+  position: relative;
+  right: 770px;
+  top: -435px;
+}
+
+.LogoLeft {
+  right: -820px;
+  border: 10px solid black;
+  scale: 0.6;
+  border-radius: 80px;
+  position: relative;
+  scale: 0.3;
+  top: -1130px;
+}/*# sourceMappingURL=page.css.map */
