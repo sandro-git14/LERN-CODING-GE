@@ -1,5 +1,7 @@
+@import '../styles/page.scss';
+
 body {
-  background-color: #343434;
+  background-color: $BodyBgcolor;
   height: 0px;
   margin: 0;
   overflow: hidden; // ← this disables scrolling
@@ -14,7 +16,10 @@ body {
   border-radius: 50px;
   border: 2px solid white;
   right: -23px;
+  -webkit-text-stroke-color: #FF5722;
+  -webkit-text-stroke-width: 1px;
 }
+
 
 @font-face {
   font-family: 'geo';
@@ -23,8 +28,6 @@ body {
 
 * {
   font-family: 'geo';
-  -webkit-text-stroke-color: #FF5722;
-  -webkit-text-stroke-width: 1px;
 }
 
 .LogoRight {
@@ -58,4 +61,9 @@ body {
   position: relative;
   left: 700px;
   top: -1950px;
+}
+
+.LoginBtn {
+  position: relative;
+  top: 500px;
 }

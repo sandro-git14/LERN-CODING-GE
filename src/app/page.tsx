@@ -36,6 +36,8 @@ export default function Home({
           />
         </div>
 
+        <button className='LoginBtn'>asdasdasd</button>
+
         <div>
           <img 
           src="/Screenshot_2026-03-31_124452-removebg-preview.png"
