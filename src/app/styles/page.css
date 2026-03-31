@@ -8,7 +8,7 @@ body {
 .WebHello {
   position: relative;
   font-size: 70px;
-  background-color: #121212;
+  background-color: #000000;
   width: 70%;
   padding: 50px;
   border-radius: 50px;
@@ -63,7 +63,7 @@ body {
 
 .LoginButton_Items {
   position: relative;
-  top: -1950px;
+  top: -2000px;
   scale: 2.5;
   position: relative;
 } 
@@ -96,4 +96,18 @@ body {
 /* Optional: Add hover effect for better user experience */
 .pushable:hover .front {
   transform: translateY(-8px); /* Lifts slightly on hover */
+}
+
+.DescTXT {
+  position: relative;
+  top: -2720px;
+  background-color: black;
+  width: 70%;
+  border-radius: 50px;
+  border: 2px solid white;
+  left: 20px;
+}
+
+.DescTXT b {
+  color: #FFC107;
 }
