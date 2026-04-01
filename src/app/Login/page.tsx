@@ -12,7 +12,7 @@ export default function LoginPage() {
                 <h1 className='Login_TXT'>შესვლა</h1>
                 <br /><br /><br />
                 <Inp />
-                <br /><br /><br />
+                <br /><br /><br /><br /><br />
                 <Inp />
             </div>
         </center>

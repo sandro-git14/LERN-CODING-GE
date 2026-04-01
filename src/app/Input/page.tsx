@@ -1,7 +1,9 @@
+import '../Input/Inp.css';
+
 function Inp() {
     return (
         <>
-        <input type="text" />
+        <input type="text" className="Input"/>
         </>
     )
 }

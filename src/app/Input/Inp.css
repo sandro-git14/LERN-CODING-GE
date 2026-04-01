@@ -1,0 +1,9 @@
+.Input {
+    width: 55%;
+    height: 10%;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    border: 2.5px solid #FF5722;
+    color: #dc4b1f;
+}
