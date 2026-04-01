@@ -1,7 +1,10 @@
 export default function LoginPage() {
     return (
         <>
-        <h1>gamarjoba</h1>
+        <center>
+            <br />
+            <div className="LoginPage_Background"></div>
+        </center>
         </>
     )
 }

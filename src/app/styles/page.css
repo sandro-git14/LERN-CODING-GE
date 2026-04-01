@@ -86,6 +86,20 @@ body {
   color: white;
   transform: translateY(-6px); /* Lifts the front part initially */
   transition: transform 0.1s ease; /* Smooth transition for the press effect */
+
+  animation-name: MyAnim;
+  animation-duration: 2s;              /* time */
+  animation-iteration-count: infinite; /* loop */
+  animation-direction: alternate;  
+}
+
+@keyframes MyAnim {
+  from {
+    background-color: #FF5722;
+  }
+  to {
+    background-color: #ff7146;
+  }
 }
 
 /* When the button is clicked, move the front part down to simulate a press */
@@ -106,6 +120,7 @@ body {
   border-radius: 50px;
   border: 2px solid white;
   left: 20px;
+  padding: 20px;
 }
 
 .DescTXT b {
