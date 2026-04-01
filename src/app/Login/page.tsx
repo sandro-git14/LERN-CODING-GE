@@ -1,5 +1,7 @@
 import '../styles/LoginPage.css';
+import Inp from '../Input/page'
 
+//add so0me input components please
 export default function LoginPage() {
     return (
         <>
@@ -9,9 +11,9 @@ export default function LoginPage() {
                 <br />
                 <h1 className='Login_TXT'>შესვლა</h1>
                 <br /><br /><br />
-                <input type="text" className='INP_Email'/>
+                <Inp />
                 <br /><br /><br />
-                <input type="text" className='INP_Pass'/>
+                <Inp />
             </div>
         </center>
         </>
